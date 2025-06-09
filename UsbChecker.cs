@@ -37,7 +37,7 @@ namespace UsbChecker
         private DeviceNode _rootNode;
 
         // flat collection of all devices found
-        private List< DeviceNode > _deviceNodes;
+        private List< DeviceNode > _deviceNodes = new List<DeviceNode>();
 
         public DeviceNode RootNode
         {
@@ -75,7 +75,7 @@ namespace UsbChecker
         {
             if (disposing)
             {
-                this._deviceNodes.Clear();
+                this._deviceNodes?.Clear();
             }
 
             this.DisconnectFromMachine();
