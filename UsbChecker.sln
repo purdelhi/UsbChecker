@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A42A69E-D781-4F98-AE3D-C1F8326158EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsbChecker", "src\UsbChecker\UsbChecker.csproj", "{14702200-4B4D-47E1-BDE7-C04973BAB8E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C9A35246-136E-4C1F-9F37-379143C77835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsbChecker.Tests", "tests\UsbChecker.Tests\UsbChecker.Tests.csproj", "{107E579D-9D62-48B3-9AED-AFA3EE915FF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14702200-4B4D-47E1-BDE7-C04973BAB8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14702200-4B4D-47E1-BDE7-C04973BAB8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14702200-4B4D-47E1-BDE7-C04973BAB8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14702200-4B4D-47E1-BDE7-C04973BAB8E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107E579D-9D62-48B3-9AED-AFA3EE915FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107E579D-9D62-48B3-9AED-AFA3EE915FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107E579D-9D62-48B3-9AED-AFA3EE915FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107E579D-9D62-48B3-9AED-AFA3EE915FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{14702200-4B4D-47E1-BDE7-C04973BAB8E1} = {0A42A69E-D781-4F98-AE3D-C1F8326158EC}
+		{107E579D-9D62-48B3-9AED-AFA3EE915FF1} = {C9A35246-136E-4C1F-9F37-379143C77835}
+	EndGlobalSection
+EndGlobal
