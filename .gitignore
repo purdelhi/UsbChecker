@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# .NET build artifacts
+bin/
+obj/
